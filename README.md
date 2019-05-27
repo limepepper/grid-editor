@@ -113,9 +113,9 @@ or
 
 ```javascript
 $('#myGrid').gridEditor({
-    'custom_filter': function(canvas, isInit) {
+    'custom_filter': [ function(canvas, isInit) {
         //...
-    },
+    }],
 });
 ```
 
